@@ -1,0 +1,183 @@
+*
+{
+
+margin:0px;
+padding:0px;
+
+}
+html
+{
+
+scroll-behavior: smooth;
+
+}
+
+h1
+{
+
+text-align: center;
+font-family: 'Playball', cursive;
+letter-spacing: 3px;
+color:pink;
+line-height: 120px;
+background-image: linear-gradient(#ffafcc,#219ebc);
+position: relative;
+}
+
+#locate_frame
+{
+
+height:100vh;
+width:100%;
+}
+
+h2
+{
+
+font-size: 1.3rem;
+text-align: center;
+color: orange;
+font-family: 'Konkhmer Sleokchher', cursive;
+margin-top: 100px;
+
+}
+h2:hover
+{
+
+color:#fff;
+
+}
+
+h3{
+
+
+font-size: 3rem;
+text-align: center;
+text-transform: lowercase;
+margin-top:30px;
+font-family: 'Mate SC', serif;
+color: #fff;
+}
+
+h5
+{
+font-size: 1.7rem;
+color:orange;
+margin-top: 100px;
+margin-left: 40px;
+font-family: 'Konkhmer Sleokchher', cursive;
+}
+body
+{
+
+background-image: linear-gradient(90deg,#003049,#a53860);
+
+
+}
+
+
+h4
+{
+font-size: 1.7rem;
+color:orange;
+margin-left: 40px;
+margin-top: 15px;
+font-family: 'Konkhmer Sleokchher', cursive;
+}
+
+.form>input
+{
+
+padding:12px 40px;
+margin-left: 40px;
+margin-top: 40px;
+font-family: 'Konkhmer Sleokchher', cursive;
+text-align: center;
+border-color: orange;
+border-radius: 4%;
+}
+#dot>.end_btn
+{
+
+    padding:4px 15px;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    border-color: orange;
+    color:#fff;
+    margin-top:25px;
+    margin-left: 300px;
+    border-radius: 2%;
+    background-color: orange;
+    text-transform: uppercase;
+    transition:.1s
+}
+#dot>.end_btn:hover
+{
+
+    color:white;
+    background-color: #000;
+    
+}
+
+.yard>h4
+{
+
+    font-size: 2.7rem;
+    color:orange;
+    margin-left: 40px;
+    margin-top: 15px;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    text-align: center;
+
+}
+
+.card
+{
+height:300px;
+width:400px;
+text-align: justify;
+position:relative;
+display: flex;
+float: left;
+}
+.overlay>h5
+{
+
+
+    font-size: 1.7rem;
+    color:orange;
+    
+    margin-top:75px;
+    font-family: 'Konkhmer Sleokchher', cursive;
+
+
+
+}
+
+p
+{
+margin-top:0px;
+font-family: 'Konkhmer Sleokchher', cursive;
+line-height:30px;
+text-align: justify;
+margin: 40px;
+padding:5px;
+font-size:1.2rem;
+color:#fff;
+
+}
+
+.overlay>button
+{
+    
+    padding:4px 11px;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    border-color: orange;
+    color:#fff;
+    border-radius: 10%;
+    background-color: orange;
+    text-transform: uppercase;
+    margin-left:40px ;
+    margin-top: -20px;
+
+
+}

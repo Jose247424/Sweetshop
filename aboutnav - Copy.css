@@ -1,0 +1,119 @@
+.navbar
+{
+    display:flex;
+    justify-content: space-between;
+    background-image:linear-gradient(#fff,#cfbaf0) ;
+    position:sticky;
+    z-index:2;
+    top:0px;
+    
+    }
+    .nav
+    {
+    
+    display:flex;
+    
+    }
+    .nav>ul
+    {
+    display: flex;
+    list-style: none;
+    overflow: hidden;
+    
+    }
+    .nav>ul>li>a
+    {
+    display:block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color:#00509d;
+    font-family: 'Playball', cursive;
+    font-size: 1.2rem;
+    line-height: 60px;
+    word-spacing: 7px;
+    margin:5px;
+    width:100%;
+    }
+    ul>li>a:hover
+    {
+    
+    color:#fb8500;
+    
+    }
+    
+    .btn
+    {
+    
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    
+    }
+    .btn>button
+    {
+    
+    height: 50%;
+    width:100px;
+    border:none;
+    font-size: .9rem;
+    background-image:linear-gradient(#ffbe0b,#fb5607) ;
+    font-family: 'Playball', cursive;
+    color:#fff;
+    transition:.5s;
+    border-radius: 20%;
+    
+    }
+    
+    .btn>button:hover
+    {
+    
+    border:2px solid #fff;
+    box-shadow:#fff 0px 3px 3px -2px,#fff 0px 8px 5px -8px;
+    }
+    
+    @media all and (max-width:880px)
+    {
+    .navbar
+        {
+           flex-direction: column;
+           position:static;
+        }
+    .nav
+    {
+    
+    flex-direction: column;
+    
+    }
+    
+    .ul
+    {
+    display: flex;
+    flex-direction: column;
+    height:120px;
+    }
+    .ul>li>a
+    {
+    
+    justify-content: space-between;
+    width:100%;
+    }
+    .btn
+    {
+    justify-content: center;
+    
+    
+    }
+    .btn>button
+    {
+        margin:10px;
+        height:50px;
+    }
+    .nav>ul
+    {
+    flex-direction: column  ;
+    }
+    }
+    
+    
+    
+    

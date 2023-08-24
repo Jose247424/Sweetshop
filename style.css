@@ -1,0 +1,334 @@
+*
+{
+
+margin:0px;
+padding:0px;
+
+}
+h1
+{
+
+text-align: center;
+font-family: 'Playball', cursive;
+letter-spacing: 3px;
+color:pink;
+line-height: 120px;
+background-image: linear-gradient(#ffafcc,#219ebc);
+}
+
+
+#HOME
+{
+height: 100vh;
+
+}
+.josehome
+{
+
+background-position: cover;
+overflow:hidden;
+
+
+}
+.josehome>img
+{
+
+height:100%;
+width:100%;
+}
+
+.text
+{
+text-align: center;
+font-size: 2rem;
+margin-top: 40px;
+text-transform: uppercase;
+font-family: 'Bebas Neue', sans-serif;
+}
+.text>p
+{
+
+font-size: 1.5rem;
+word-spacing: 5px;
+text-align:center;
+font-weight: 900;
+text-transform: lowercase;
+margin-top: 20px;
+font-family: 'Koulen', cursive;
+
+}
+.text>img
+{
+
+height:35px;
+margin-top: 20px;
+}
+.cart
+{
+
+float:left;
+height:360px;
+width:260px;
+border:7px solid white;
+position:relative;
+margin-left: 50px;
+margin-top: 50px;
+}
+.cart >img
+{
+height:100%;
+width:100%;
+}
+.overlay
+{
+position:absolute;
+top:0px;
+background:#000;
+opacity:0;
+color:#fff;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+height:100%;
+width:100%;
+transition:.25s;
+}
+.overlay:hover
+{
+opacity:.8;
+cursor:pointer;
+}
+.overlay>*
+{
+transform:scale(0.7);
+transition:transform 0.50s;
+
+}
+.overlay:hover>*
+{
+transform:scale(1.0);
+}
+h3
+{
+    font-family: 'Koulen', cursive;
+    font-size:1.3rem;
+    margin-top:10px;
+}
+p
+{
+margin-top:20px;
+font-family: 'Wix Madefor Text', sans-serif;
+line-height:25px;
+text-align:justify;
+padding:5px;
+font-size:1.1rem;
+letter-spacing: 1px;
+border:none;
+}
+
+.cart_btn
+{
+
+padding:8px;
+width:50%;
+margin-top: 30px;
+font-size: 1.3rem;;
+border-radius: 40%;
+font-family: 'Squada One', cursive;
+color:orange;
+background: white;
+
+}
+
+.cart_btn:hover
+{
+
+color:white;
+background: orange;
+transition:.9s;
+
+}
+
+
+
+
+@media all and(max-width:400px)
+{
+
+h1
+{
+display:flex;
+flex-direction: column;
+}
+
+}
+
+
+body{
+
+
+background-image: url("../images/candy1.jpg");
+
+}
+
+.bliss>h4{
+
+font-size: 2.5rem;
+text-align: center;
+font-family: 'Anton', sans-serif;
+letter-spacing: 2px;
+
+}
+.bliss>h5
+
+{
+
+font-size: 1.2rem;
+font-family: 'Varela Round', sans-serif;
+text-align: center;
+margin: 40px;
+
+}
+.bliss>h5:hover
+{
+
+
+color:orange;
+
+}
+.end_btn>button
+{  
+    display: flex;
+    height: 35px;
+    width:200px;
+    border:none;
+    font-size: 1.3rem;
+    background-image:linear-gradient(#ffbe0b,#fb5607) ;
+    font-family: 'Playball', cursive;
+    color:#fff;
+    transition:.5s;
+    border-radius: 25%;
+    text-align: center;
+    margin-left: 560px;
+    margin-top: 30px;
+    flex-direction: column;
+
+}
+
+.parent_1>ul
+{
+
+font-size: 1.7rem;
+list-style:none;
+margin-top: 50px;
+font-family: 'Ysabeau SC', sans-serif;
+margin-left: 100px;
+}
+.parent_2>ul
+{
+
+font-size: 1.3rem;
+list-style: none;
+margin-top: 50px;
+font-family: 'Ysabeau SC', sans-serif;
+margin-left: 150px;
+}
+
+
+
+.parent_3>ul
+{
+font-size:1.3rem ;
+list-style:none;
+margin-top: 50px;
+font-family: 'Ysabeau SC', sans-serif;
+margin-left:200px ;
+}
+#parent
+{
+  display: flex;
+  float: left;
+  
+}
+.footer>img
+{
+
+height: 40px;
+margin-top: 50px;
+margin-left: 450px;
+}
+
+@media all and (max-width:790px)
+{
+.end_btn
+{
+flex-direction: column;
+justify-content: center;
+}
+
+.end_btn>button
+{
+  margin:30px;
+  height:30px;
+}
+
+}
+
+@media all and (max-width:920px)
+
+{
+#perent
+{
+
+display:flex;
+flex-direction: column;
+float: left;
+}
+.parent_1>ul
+{
+
+flex-direction: column;
+margin-left: 20px;
+}
+.parent_2>ul
+{
+
+
+flex-direction: column;
+margin-top: 380px;
+margin-left: -100px;
+align-items: center;
+
+}
+.parent_3>ul
+{
+
+flex-direction: column;
+margin-top:880px;
+margin-left: -175px;
+flex-direction: column;
+
+}
+
+}
+
+@media all and (max-width:850px)
+{
+.footer
+{
+
+flex-direction: column;
+align-items:center;
+
+}
+.footer>img
+{
+
+margin:30px;
+
+}
+
+
+
+}
